@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.title{
+    text-align: left;
+}
+
+section{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+nav{
+    background-color: #333;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    position: fixed;
+}
+
+.nav-left h1{
+    margin: 0;
+}
+
+.nav-right a{
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    background-color: orange;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.nav-right a:hover{
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+    background-color: crimson;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.navbar-right a:hover{
+    background-color: #9e2626; /* Background color of the button */
+    color: #fff; /* Text color for the button */
+    border: none;
+    transform: scale(1.2);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 2px;
+    text-align: center;
+}
+
+#home {
+    color: #000000; /* Set text color for better visibility */
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #000000;
+}
+
+#home a{
+    text-decoration: none;
+    background-color: #fff;
+    color: #000; /* Text color for the button */
+    border: none;
+    padding: 80px 120px;
+    border-radius: 30PX;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+#home a:hover{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff; /* Text color for the button */
+    border: none;
+    padding: 80px 120px;
+    border-radius: 30PX;
+    cursor: pointer;
+    transition: .5s;
+}
+#contacts {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.contact-card h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.contact-card p {
+    margin: 5px 0;
+}
+

@@ -1,0 +1,40 @@
+#about {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+#about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile .description {
+    text-align: left;
+}
+
+.profile h2 {
+    font-size: 42px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.profile p {
+    font-size: 38px;
+    margin: 100px;
+    padding: 100px;
+}

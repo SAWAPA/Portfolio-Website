@@ -1,0 +1,42 @@
+#education {
+    text-align: center;
+    padding: 200px;
+}
+
+.school-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.school-logo {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.school-logo img {
+    width: 150px;
+    height: 170px;
+    margin-bottom: 10px;
+}
+
+.school-logo h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+/* อัพเดทเพิ่มเติมให้ Education อยู่ด้านบน */
+.school-logos {
+    order: 1;
+    margin-top: 20px;
+}
+
+

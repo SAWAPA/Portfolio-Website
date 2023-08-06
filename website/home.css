@@ -1,0 +1,23 @@
+#home {
+    text-align: center;
+    padding: 50px;
+}
+
+#home h1 {
+    font-size: 36px;
+    letter-spacing: 5px; /* ปรับระยะห่างระหว่างตัวอักษร */
+}
+
+#home h1 span {
+    display: inline-block;
+    transform: translateY(-100%);
+    opacity: 0;
+    animation: fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

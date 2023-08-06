@@ -1,0 +1,40 @@
+#skills {
+    text-align: center;
+    padding: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* จัดให้อยู่ทางด้านซ้าย */
+}
+
+.skills h1 {
+    width: 100%;
+}
+
+.skill-box,
+.skill-box1,
+.skill-box3 {
+    flex: 0 0 calc(33.33% - 40px); /* แบ่งกล่องอัตราส่วน 1/3 ของพื้นที่ทั้งหมด */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: white;
+}
+
+.skill-box img,
+.skill-box1 img,
+.skill-box3 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.skill-box h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
